@@ -22,34 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a563377b-b16b-4419-a49e-0047abcef487" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/DetailsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/MainScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/model/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/model/CartManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/utils/AddItemInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/utils/CategoryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/utils/ClickMenuInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/utils/DoPaymentInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/utils/MenuGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/utils/ProductsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/store/assets/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/store/cart.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/store/details.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/store/mainscreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/store/mainscreen.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellofx/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellofx/HelloFXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/MainScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hellofx/hello.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hellofx/hello.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hellofx/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/store/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="a563377b-b16b-4419-a49e-0047abcef487" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -74,6 +47,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1qJjUg4aYWQUIwMeuHCPBtMBPhZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -84,12 +58,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/store" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.45172414" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -114,6 +89,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,6 +178,7 @@
       <workItem from="1619051212121" duration="5563000" />
       <workItem from="1619091497114" duration="21498000" />
       <workItem from="1619129850101" duration="308000" />
+      <workItem from="1619130372196" duration="309000" />
     </task>
     <servers />
   </component>
@@ -227,10 +216,11 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1659" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619118172447" />
-    <state x="713" y="426" key="Github.ShareDialog" timestamp="1619129972702">
+    <state x="713" y="426" key="Github.ShareDialog" timestamp="1619130463577">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="713" y="426" key="Github.ShareDialog/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1619129972702" />
+    <state x="713" y="426" key="Github.ShareDialog/0.0.1680.1050/-1920.25.1920.1055@0.0.1680.1050" timestamp="1619130463577" />
     <state width="1878" height="376" key="GridCell.Tab.0.bottom" timestamp="1619129216510">
       <screen x="0" y="25" width="1680" height="976" />
     </state>
@@ -295,10 +285,19 @@
     <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619127025533" />
     <state width="1878" height="376" key="GridCell.Tab.1.right/0.25.1680.1025/-1920.0.1920.1031@-1920.0.1920.1031" timestamp="1619126049961" />
     <state width="1878" height="376" key="GridCell.Tab.1.right/0.25.1680.976/-1920.25.1920.1055@0.25.1680.976" timestamp="1619129216512" />
-    <state x="-1474" y="140" key="SettingsEditor" timestamp="1619041665741">
-      <screen x="-1920" y="25" width="1920" height="1055" />
+    <state x="390" y="114" key="SettingsEditor" timestamp="1619130437228">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="390" y="114" key="SettingsEditor/0.0.1680.1050/-1920.25.1920.1055@0.0.1680.1050" timestamp="1619130437228" />
     <state x="-1474" y="140" key="SettingsEditor/0.25.1680.976/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1619041665741" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1619130560998">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1619130560998" />
+    <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619130644031">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1619130644031" />
     <state x="-1920" y="30" width="1920" height="1006" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1619119550552">
       <screen x="-1920" y="25" width="1920" height="1006" />
     </state>
