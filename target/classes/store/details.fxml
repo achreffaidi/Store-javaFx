@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="900.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.5" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <StackPane prefHeight="398.0" prefWidth="225.0">
+               <children>
+                  <ImageView fx:id="imageView" fitHeight="300.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </StackPane>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" layoutX="2.0" layoutY="1.0" prefHeight="398.0" prefWidth="445.0" spacing="20.0">
+                     <children>
+                        <Label fx:id="title" text="Title" textAlignment="CENTER">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Text fx:id="description" boundsType="VISUAL" text="This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, " textAlignment="CENTER" wrappingWidth="365.99072265625" />
+                        <Text fx:id="price" boundsType="VISUAL" text=" PRICE " textAlignment="CENTER" wrappingWidth="365.99072265625">
+                           <font>
+                              <Font size="18.0" />
+                           </font></Text>
+                        <Text fx:id="offer" boundsType="VISUAL" fill="#00b90f" text="OFFER" textAlignment="CENTER" visible="false" wrappingWidth="365.99072265625">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font></Text>
+                        <Text fx:id="newPrice" boundsType="VISUAL" text=" NEWPRICE " textAlignment="CENTER" visible="false" wrappingWidth="365.99072265625">
+                           <font>
+                              <Font size="18.0" />
+                           </font></Text>
+                        <HBox alignment="CENTER" prefHeight="32.0" prefWidth="200.0">
+                           <children>
+                              <Label text="Count: " />
+                              <Spinner fx:id="spinner">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </Spinner>
+                           </children>
+                        </HBox>
+                        <Text fx:id="total" boundsType="VISUAL" text="Total:" textAlignment="CENTER" visible="true" wrappingWidth="365.99072265625">
+                           <font>
+                              <Font size="17.0" />
+                           </font></Text>
+                        <Button  fx:id="btnAdd" mnemonicParsing="false" style="-fx-background-color: blue;" text="Add to my Card" textFill="WHITE">
+                           <effect>
+                              <Glow level="0.51" />
+                           </effect>
+                        </Button>
+
+                     </children></VBox>
+               </children></Pane>
+         </items>
+      </SplitPane>
+   </children>
+
+</AnchorPane>

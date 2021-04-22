@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="900.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane fx:id="splitPane" dividerPositions="0.5" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <VBox fx:id="item1" alignment="TOP_CENTER" minWidth="450.0" prefHeight="200.0">
+               <children>
+                  <TableView fx:id="tableView" prefHeight="279.0" prefWidth="445.0">
+                    <columns>
+                      <TableColumn prefWidth="75.0" text="C1" />
+                      <TableColumn prefWidth="75.0" text="C2" />
+                    </columns>
+                  </TableView>
+                  <Button fx:id="btnGoPayment" mnemonicParsing="false" text="Go to Payment" />
+               </children>
+            </VBox>
+            <Pane fx:id="item2" minWidth="0" prefHeight="200.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" layoutX="2.0" layoutY="1.0" prefHeight="398.0" prefWidth="445.0" spacing="20.0">
+                     <children>
+                        <Label fx:id="title" text="Payment Details" textAlignment="CENTER">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="CENTER" prefHeight="32.0" prefWidth="200.0">
+                           <children>
+                              <Label text="FullName">
+                                 <HBox.margin>
+                                    <Insets right="30.0" />
+                                 </HBox.margin></Label>
+                              <TextField />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="32.0" prefWidth="200.0">
+                           <children>
+                              <Label text="Address">
+                                 <HBox.margin>
+                                    <Insets right="30.0" />
+                                 </HBox.margin></Label>
+                              <TextField />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="32.0" prefWidth="200.0">
+                           <children>
+                              <Label text="Card Number: ">
+                                 <HBox.margin>
+                                    <Insets right="30.0" />
+                                 </HBox.margin></Label>
+                              <TextField />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="32.0" prefWidth="200.0">
+                           <children>
+                              <Label text="Exp:">
+                                 <HBox.margin>
+                                    <Insets right="30.0" />
+                                 </HBox.margin></Label>
+                              <TextField maxWidth="60.0">
+                                 <HBox.margin>
+                                    <Insets right="20.0" />
+                                 </HBox.margin></TextField>
+                              <Label text="CVC:">
+                                 <HBox.margin>
+                                    <Insets right="30.0" />
+                                 </HBox.margin></Label>
+                              <TextField maxWidth="60.0" />
+                           </children>
+                        </HBox>
+                        <Text fx:id="total" boundsType="VISUAL" text="Total:" textAlignment="CENTER" visible="true" wrappingWidth="365.99072265625">
+                           <font>
+                              <Font size="17.0" />
+                           </font></Text>
+                        <Button fx:id="btnPay" minWidth="150.0" mnemonicParsing="false" style="-fx-background-color: blue;" text="Pay" textAlignment="CENTER" textFill="WHITE">
+                           <effect>
+                              <Glow level="0.51" />
+                           </effect>
+                           <font>
+                              <Font name="American Typewriter" size="16.0" />
+                           </font>
+                        </Button>
+
+                     </children></VBox>
+               </children></Pane>
+         </items>
+      </SplitPane>
+   </children>
+
+</AnchorPane>
